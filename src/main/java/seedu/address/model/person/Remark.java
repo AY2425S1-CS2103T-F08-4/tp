@@ -2,7 +2,7 @@ package seedu.address.model.person;
 
 public class Remark {
     public final String value;
-    
+
     public Remark(String remark) {
         requireNonNull(remark);
         value = remark;
