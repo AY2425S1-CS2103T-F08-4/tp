@@ -38,7 +38,8 @@ public class SampleDataUtil {
                     new LastSeen("01-01-2022"), getTagSet("family"), new Priority("low"), new Remark("handsome")),
             new Person(new Name("Irfan Ibrahim"), new Phone("92492021"), new Email("irfan@example.com"),
                 new Address("Blk 47 Tampines Street 20, #17-35"), new Organisation("NUS"),
-                    new LastSeen("28-04-2009"), getTagSet("classmates"), new Priority("medium"), new Remark("handsome")),
+                    new LastSeen("28-04-2009"), getTagSet("classmates"),
+                    new Priority("medium"), new Remark("handsome")),
             new Person(new Name("Roy Balakrishnan"), new Phone("92624417"), new Email("royb@example.com"),
                 new Address("Blk 45 Aljunied Street 85, #11-31"), new Organisation("NUS"),
                     new LastSeen("11-03-2023"), getTagSet("colleagues"), new Priority("high"), new Remark("handsome"))
